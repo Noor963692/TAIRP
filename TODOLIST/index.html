@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>To-Do List</h1>
+        </header>
+        <div class="todo-app">
+            <div class="add-task">
+                <input type="text" id="taskInput" placeholder="Add a new Task">
+            <button onclick="addTask()">Add</button>
+            </div>
+        <ul id="taskList" onclick="taskListClick(event)"></ul>
+    </div>
+    <footer>
+        <p>Created with ❤️ by Vishal Tiwari</p>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
